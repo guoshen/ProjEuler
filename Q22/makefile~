@@ -1,9 +1,0 @@
-utils.o: utils.c utils.h
-cc -c utils.c
-
-q22: q22.c utils.o 
-gcc -o q22.c utils.o 
-
-all:
- gcc -o q22 utils.c q22.c
-
