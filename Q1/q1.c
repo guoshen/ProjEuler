@@ -16,12 +16,14 @@ int natural35(int num)
 {
     int sum=0;
     int i;
-    for(i=0;i<num;i++)
+    for(i=3;i<1000;i=i+3)
     {
-    if(i%3==0 || i%5==0)
-        {
+    sum+=i;
+    }
+    for(i=5; i<1000;i=i+5)
+    {
+        if(!(i%3==0))
         sum+=i;
-        }
     }
     return sum;
 }
