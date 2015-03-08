@@ -39,7 +39,7 @@ unsigned long  latticePaths(int size)
         for(int j=size,k=i;k<=size && j>0;k++, j--)
          numPaths[i][k]=numPaths[i-1][k]+numPaths[i][k-1];
     }
-    return numPaths[20][20];
+    return numPaths[size][size];
 }
 
 int main()
