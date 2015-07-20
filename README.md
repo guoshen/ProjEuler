@@ -6,9 +6,9 @@
 > work due to the massive amount of computations required for many of the problems. 
 > Efficient algorithms are needed to solve the problems. Check it out at <a  href="https://projecteuler.net/">https://projecteuler.net/</a>
 
-- Authors: Tony Guo
-
-- Technologies Used: C/C++
+- **Authors**: Tony Guo
+- **Status**: In Progress
+- **Technologies Used**: C/C++
 
 <div>
 Note: I will be posting these solutions and updating them with more 
